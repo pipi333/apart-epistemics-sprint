@@ -63,6 +63,7 @@ DEFAULT_PROJECT_INTENT = (
 
 def build_payload_preview(args: argparse.Namespace) -> dict:
     pdf_path = ROOT / "paper" / "AI_x_Epistemics_Research_Report.pdf"
+    slides_path = ROOT / "paper" / "AI_x_Epistemics_Slides.pdf"
     img_path = ROOT / "figures" / "fig2_epistemic_phase_space.png"
     words = len(PROJECT_SUMMARY_236W.split())
     return {
@@ -207,6 +208,7 @@ def run_submit_project(args: argparse.Namespace) -> dict:
     out_dir = ROOT / "outputs" / "portal_receipts"
     out_dir.mkdir(parents=True, exist_ok=True)
     pdf_path = ROOT / "paper" / "AI_x_Epistemics_Research_Report.pdf"
+    slides_path = ROOT / "paper" / "AI_x_Epistemics_Slides.pdf"
     img_path = ROOT / "figures" / "fig2_epistemic_phase_space.png"
 
     with sync_playwright() as p:
@@ -259,6 +261,8 @@ def run_submit_project(args: argparse.Namespace) -> dict:
         if not is_disabled:
             page.set_viewport_size({"width": 1280, "height": 900})
             dialog.locator('input[name="PDF File"]').set_input_files(str(pdf_path))
+            if slides_path.exists():
+                dialog.locator('input[name="Slideshow_File_Framer"]').set_input_files(str(slides_path))
             if img_path.exists():
                 dialog.locator('input[name="Image_File_Framer"]').set_input_files(str(img_path))
             submit_btn.click()
