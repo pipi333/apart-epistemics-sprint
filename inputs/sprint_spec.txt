@@ -1,0 +1,24 @@
+# Apart Research: AI x Epistemics Research Sprint (Nov 13–15, 2026)
+
+## Official Tracks & Framing
+1. **Track 1: Model Epistemics & Decision-Making Evals**
+   - Core question: Does the model understand how solid its claims are? Can you accurately measure its confidence in a decision and verify that against reality? Can you measure the gap between what a model implies and what it will defend (overselling, flip-flopping, retreating quietly under pushback)?
+   - Featured Sprint Problem — **FlipRate**: "A model that agrees with whoever pushed back last is useless for decisions. Single-turn agreement is already measured (SycEval, ELEPHANT). Measure flip curves: how a model's answer and stated confidence change across one, two and three escalating rebuttals, separating warranted updating from capitulation."
+   - Featured Sprint Problem — **Confidence Audit**: Elicit and verify a model's stated confidence across turns and domains.
+2. **Track 2: Trust Infrastructure**
+   - Core question: When an AI system uses a reliability, provenance, or pre-commitment verification protocol, does its epistemic behaviour and accuracy actually improve?
+
+## Mandatory Literature from Official Resources
+- **Cotton-Barratt, Vaintrob & Sourbut (Forethought, 2025/2026)**: *Design Sketches: Collective Epistemics* & *Design Sketches for a More Sensible World* (epistemic virtue evaluations: calibration, honest uncertainty, manipulation resistance).
+- **Ren et al. (CAIS, 2025)**: *The MASK Benchmark* (arXiv:2503.03750) — 1,000+ scenarios showing models knowingly contradict their own beliefs under pressure.
+- **Kran et al. (ICLR 2025 Oral)**: *DarkBench* (arXiv:2503.10728) — 660 prompts measuring six manipulative patterns.
+- **Fanous et al. (AIES, 2025)**: *SycEval* (arXiv:2502.08177) — single-turn answer-flipping under rebuttal pressure.
+- **Cheng et al. (2025)**: *ELEPHANT* (arXiv:2505.13995) & *Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence* (Science, 2025).
+- **Kalai et al. (OpenAI, 2025)**: *Why Language Models Hallucinate* (arXiv:2509.04664) — binary-graded benchmarks reward confident guessing over honest abstention.
+- **Karger et al. (ICLR, 2025)**: *ForecastBench* (arXiv:2409.19839) — calibration on resolvable questions.
+- **Hammond et al. (Cooperative AI Foundation, 2025)**: *Multi-Agent Risks from Advanced AI* (arXiv:2502.14143).
+
+## Official Judging Criteria (1-5 Scale)
+- **Dimension 1: Impact Potential & Innovation**: Tackles a critical problem with a genuinely novel approach; clear theory of change.
+- **Dimension 2: Execution Quality**: Sound methodology, implementation, statistical validation,variance/baselines reported.
+- **Dimension 3: Presentation & Clarity**: 4–8 pages max (excluding references & appendices), 150–250 word abstract, clear figures/tables, required "Limitations and Dual-Use / Ethical Considerations" appendix.

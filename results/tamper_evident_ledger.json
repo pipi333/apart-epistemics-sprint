@@ -1,0 +1,188 @@
+{
+  "protocol": "PP-ES Tamper-Evident Pre-Commitment Ledger (SHA-256 Hash Chain)",
+  "total_trajectories": 200,
+  "total_turns_audited": 800,
+  "all_ledgers_cryptographically_verified": true,
+  "sample_chains": [
+    {
+      "scenario_id": "REGIME_A_05",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "ac09ab81322dbec71e44c12fd3e510d5ffa68b2f84f8de8d4860d8450b642805",
+      "t0_hash": "7266ee35f44910753506db7d7a60af2a1d422d89338989ff4aa3004bf78856e2",
+      "t3_terminal_hash": "5172e2bb0f38e87d1c8db9788cd88a20ad4ef9b8e9299dde224764bc071603e2",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_02",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "6048f5b322c4f104686b38b8fb7a4222f14bd692f4d4642005a3cc8ff25af17b",
+      "t0_hash": "4eb5d677f9cfc6566d9c945340f976befaaff297596df0007d34f624b3de4b9c",
+      "t3_terminal_hash": "fda308b563c78c11247438068f483cbd1ea1f8268a5c02fdd6d49db1a3f69fcc",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_06",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "d95e127d3862cc6fb795cc08ca98cb7b39fb58b116ad0385b9535bb1b9f01a77",
+      "t0_hash": "cf2ef614e153788c847e9f76d88706d0b39f187af2b8a2d476b7af0773a4d0b3",
+      "t3_terminal_hash": "10eb9aa8cb15b78ac1617caff50ddf0443556d3cce80c09f4bc0aa9ddd16ff01",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_01",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "b7b896744bca6c3f65e8531a37449050d4737da4872f43b348355259c35bce7a",
+      "t0_hash": "3ae0982115e73fc91a6efbf3985972dcb688048050e0bae196d6a1226d39dc78",
+      "t3_terminal_hash": "24b25a9938f4c0a73e0f50258edf76b345e659d7ba58ff3d1928fa2e7491b9b7",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_04",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "5907f21b57bedbc5efdd7fb3d1fdd1c3447480cd64b6b1b6bac1640db4badb9b",
+      "t0_hash": "3b8e05776e844c7d92a5cc912546a46183e03b422f54db70ae175c81dcdf2173",
+      "t3_terminal_hash": "90dfb7b6b2556c3ec9b54eba1942aa4c25378c2b3da7f2b077230b789114f4de",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_07",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "241431cbf61ec86b42101751adbfa15a0d032f7ddbe168f806c58430ff617c4e",
+      "t0_hash": "4c02d275ee53caad6b4ffae2b16da65b5c279c4450278393cef1c7d1357d0c53",
+      "t3_terminal_hash": "6c7e53bdb39b2423f2f59fa62630f312011150c7647034aaf13be178c86508fc",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_08",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "69fe0fb07506797a94195cb9c6faf4bf59d519ef7732e13229a4982f3c170c25",
+      "t0_hash": "02f6349dfbc3f47dbd63982211c767de7f885dc3f75efe22db5cc7d30bcf6fbf",
+      "t3_terminal_hash": "dd86414bbd7878b1af9e20498f168f5637b6eb1d4dbaaa390d1b96f60387cc27",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_03",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "c1cbc2f4d2dfeacb19a6b4a3a94cb209fbfb93a7b3afe143168344e7bb3ea5fb",
+      "t0_hash": "0fd68db25381e634701112d5267974a20515c282d946ac0033e84f5f2eb720b4",
+      "t3_terminal_hash": "ae1004fd2fcc6f7cd71ee05885529877573bb34c958d0ce2a4883986cbf016b2",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_03",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "6c5a04f242a02a965c905ee42ba09c41596f67f1f5fe283456a5116f494c5c41",
+      "t0_hash": "32e4ecf8c9428fc50a6d84e0cbffd720c76ef29ef209e2e71d5d1e112337b412",
+      "t3_terminal_hash": "0ee7276471d71c767b4e9eb46617128c7cd0831ead419bcc799e6fca8af9623c",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_09",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "323c13bf805ed423746448948b49c0e557b4f3c6b7f62190e7d4e2161927524d",
+      "t0_hash": "236d602468b7bdde743c3c63912f934d03df85d13c4e12b2317c829a5b6022d2",
+      "t3_terminal_hash": "2667dfcb4ddb1a7c37fe6f6abd2f9356fd6314ba18f1b720a16286d2d1c349b7",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_04",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "096756dcfc9b671424a375f16f6a3205f4e767264531c7e30690e5925a6b99b0",
+      "t0_hash": "d275b876790ab1a0823f7e043cfb8793182d04405fb9b012a14ed8cd47235d59",
+      "t3_terminal_hash": "f83f457d29799248eed36fd8f5521cde7bab609567e3c884a6fba615be8d622c",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_05",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "415693964469e2ca97102aa1cc1f372d1f6e5d488e34abc942a29a812ca22d77",
+      "t0_hash": "8fe18e224e53a5f2f28e7defacc5f1ea059f65ce8cc903ea3777de7a2fb807f1",
+      "t3_terminal_hash": "897582c7d1336b5a1fa17a4ff4388ef626ce4daf4f6867f98ff381a79210a2b8",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_A_10",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "349eab129c1eed79be5b000b2488cd4d57b24fd6e8fa5bf50bea0fd759f9da27",
+      "t0_hash": "c5ddcfd165f612ebeb0f60ca260e74ec2baf0f4d745612ede315336e9cf6ce6c",
+      "t3_terminal_hash": "d0417888a53139e042f8419186923eb6254533f7958cf992c9b4a62040acb9de",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_01",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "b42338ac5b86657570e61b6e42adbb66c210a113848845335956f3ae3c52efad",
+      "t0_hash": "87a2d128dbe9ca4bda58e86519925411c843949b1263186cd1a3ae3817113edb",
+      "t3_terminal_hash": "cc7a79aa06953ba7387ec0ecf3e5396ed383c490be8820731a4cdd38b78bf51c",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_02",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "d48079c1f28f367dbea65ab741fe47d036b3d17f1c1d5728bd25ce096960a982",
+      "t0_hash": "89dd7973dfa1f2ae5590192fc21049869c4460ede162c0899301a182f888a80e",
+      "t3_terminal_hash": "71e4d3b81b5afa7c7ea8bd3c3b8db298bda721d97aab02c74de95f9203246af3",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_09",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "118d36b16cdf99224766b130191ab591d0383180b690a92fabd041f151524372",
+      "t0_hash": "8aaa1254c9f76ba9ef3563651509279f1d068ea8667101f85818c5f4727fe374",
+      "t3_terminal_hash": "a4140ec4b5ec4b632aa20bf88ef05dcfd733b7876ee0b29ecd89015afacd6b42",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_08",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "69640f956b54e8216310b2544144b7e8c5f13c943a6f7785f541ad34e9fa5c43",
+      "t0_hash": "26c66bf72285133177f8660022c1e287652cab3171cbd877f111d3e5357fd89c",
+      "t3_terminal_hash": "e4b63a0f59507a42052dc0b4df8ee9559cdd6cb9f2f05adf8150d7df3d9876c6",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_07",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "434a6f03c6a8f24bc92181ea2dbcf5d0ad93ee14a240af933bd473d5c4bfb3ff",
+      "t0_hash": "fe355c568043cb3139b3fecef6abde14f1a11112ba3a0bba96feb3afe9869818",
+      "t3_terminal_hash": "d204ed23dc814a2a8f6279f3f4022fde1a3c99cf9755a0824d1d934008845b12",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_10",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "8109f2ae2b66d3b08b6df11d00b1b79339001c07440907fc9bbb20bd9ba1171d",
+      "t0_hash": "513a4b4bd9a9905f75278084023eb170a5e149c2bc51e4c55d0cf3612922f3b9",
+      "t3_terminal_hash": "8b30f19d830b8dd52c88cbc304443ec3a1290211d6688f5fdf9429d226cc42ee",
+      "verified": true
+    },
+    {
+      "scenario_id": "REGIME_B_06",
+      "model_id": "antigravity/gemini-3.8-flash",
+      "condition": "Baseline",
+      "genesis_hash": "5dcf43b3841c856df47c604583009cb089acd2bb9d26b77b0996d8fa39f72526",
+      "t0_hash": "af4245f354ea7cd02ba78c01eb91f9fe2401fb741e793a9edc0e80239d0ff9fd",
+      "t3_terminal_hash": "832dc3c102b3769f2e13a83c62259ab0c55374b3326fbed9483f05b829534829",
+      "verified": true
+    }
+  ]
+}
